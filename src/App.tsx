@@ -31,13 +31,13 @@ function App() {
   return (
     <Router>
       <div className="min-h-screen bg-gray-50 overflow-y-scroll h-64 scrollbar-hide"
-       style={{
-        overflowY: 'scroll',
-        scrollbarWidth: 'none',
-        msOverflowStyle: 'none', 
-      }}
+        style={{
+          overflowY: 'scroll',
+          scrollbarWidth: 'none',
+          msOverflowStyle: 'none',
+        }}
       >
-      <ToastContainer position="top-right" autoClose={3000} />
+        <ToastContainer position="top-right" autoClose={3000} />
         <Navbar />
         <Routes>
           {/* <Route path="/" element={<Home />} /> */}
