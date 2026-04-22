@@ -1,6 +1,6 @@
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { ArrowLeft, Store, UserCircle } from 'lucide-react';
-import Logo from '../assets/image/Logo.png'
+import Logo from '../assets/image/logo.png'
 
 export default function Navbar() {
   const location = useLocation();

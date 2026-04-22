@@ -6,7 +6,7 @@ import { postLoginInAPi } from '../Api-Service/authendication';
 import { useEffect, useState } from 'react';
 import { Eye, EyeOff } from 'lucide-react';
 import { toast } from 'react-toastify';
-import Logo from '../assets/image/Logo.png'
+import Logo from '../assets/image/logo.png'
 
 export default function Login() {
   const navigate = useNavigate();
